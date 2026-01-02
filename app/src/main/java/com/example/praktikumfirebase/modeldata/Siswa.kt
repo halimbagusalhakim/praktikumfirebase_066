@@ -14,19 +14,8 @@ data class DetailSiswa(
     val telpon: String = ""
 )
 
-fun DetailSiswa.toDataSiswa(): Siswa = Siswa(
-    id = id,
-    nama = nama,
-    alamat = alamat,
-    telpon = telpon
-)
-
-fun Siswa.toDetailSiswa(): DetailSiswa = DetailSiswa(
-    id = id,
-    nama = nama,
-    alamat = alamat,
-    telpon = telpon
-)
+fun DetailSiswa.toDataSiswa(): Siswa = Siswa(id, nama, alamat, telpon)
+fun Siswa.toDetailSiswa(): DetailSiswa = DetailSiswa(id, nama, alamat, telpon)
 
 data class UIStateSiswa(
     val detailSiswa: DetailSiswa = DetailSiswa(),
