@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "244755014454",
+    "project_id": "fir-kotlin-8d9e3",
+    "storage_bucket": "fir-kotlin-8d9e3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244755014454:android:6f16dc3f91c5ce6cfa4997",
+        "android_client_info": {
+          "package_name": "com.example.praktikumfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs1WmB7eJUNU-ro1qOSGAIoq1gyyRlbaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
